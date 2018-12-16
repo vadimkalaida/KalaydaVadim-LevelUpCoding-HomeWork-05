@@ -1,0 +1,53 @@
+body {	
+	margin: 0 auto;
+	font-family: Calibri;
+ }
+
+ header {
+	width: 100%;
+	min-height: 82px;
+	background-color: #3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	border-bottom: 1px solid #133783;
+	z-index: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+header h1 a {
+	color: #ffffff;
+}
+
+header h1 {
+	float: left;
+	padding-left: 10%;
+}
+
+header form {
+	margin-top: 30px;
+	margin-right: 10%; 
+	float: right;
+}
+
+header form label {
+	color: #ffffff;
+}
+
+.login {
+  margin-left: 5px;
+ 	background-color: #3D5FA8;
+ 	color: #ffffff;
+ 	border: 1px solid #274172;
+ 	cursor: pointer;
+}
+
+.login:active {
+ 	background-color: #324e8b;
+}
+
+.forgot {
+  color: #7CADD2;
+  text-decoration: none;
+}
