@@ -1,6 +1,7 @@
 body {	
 	margin: 0 auto;
 	font-family: Calibri;
+	overflow-x: hidden; 
  }
 
  header {
@@ -22,12 +23,12 @@ header h1 a {
 
 header h1 {
 	float: left;
-	padding-left: 10%;
+	padding-left: 14%;
 }
 
 header form {
 	margin-top: 30px;
-	margin-right: 10%; 
+	margin-right: 14%; 
 	float: right;
 }
 
@@ -35,8 +36,49 @@ header form label {
 	color: #ffffff;
 }
 
+.email-block {
+	float: left;
+}
+
+.email-label {
+	margin-top: -19px;
+	float: left;
+	margin-left: -15px;
+}
+
+.email-block input {
+	float: left;
+	margin-left: -15px;
+}
+
+.userpass-block {
+	float: left;
+}
+
+.pass-label {
+	float: left;
+	margin-top: -19px;
+	margin-left: -5px;
+}
+
+.userpass-block input {
+	float: left;
+	margin-left: -5px;
+}
+
+.forgot {
+  color: #7CADD2;
+  text-decoration: none;
+  float: left;
+  margin-left: -5px;
+}
+
+.login-btn-block {
+	float: left;
+}
+
 .login {
-  margin-left: 5px;
+	margin-left: -36px;
  	background-color: #3D5FA8;
  	color: #ffffff;
  	border: 1px solid #274172;
@@ -47,7 +89,281 @@ header form label {
  	background-color: #324e8b;
 }
 
-.forgot {
-  color: #7CADD2;
-  text-decoration: none;
+main {
+	width: 100%;
+	background-color: #EBEEF3;
+	min-height: 585px;
+	padding: 1px;
+}
+
+.left-side {
+	width: 50%;
+	float: left;
+}
+
+.left-side-headertext {
+	font-size: 28px;
+	line-height: 36px;
+	float: left;
+	padding-left: 27%;
+	padding-top: 4%;
+}
+
+.left-side img {
+  max-width: 56px;
+  height: 56px;
+  clear: both;
+  float: left;
+  margin-top: 2%;
+  margin-left: 27%
+}
+
+.left-side p {
+  font-size: 18px;
+  float: left;
+  padding-top: 2%;
+  padding-left: 1.5%;
+}
+
+.left-side span {
+  font-weight: bold;
+  clear: both;
+}
+
+.right-side {
+	width: 50%;
+	float: right;
+}
+
+.right-side h2 {
+	float: left;
+	font-size: 38px;
+	padding-left: 23%;
+}
+
+.right-side h4 {
+	font-weight: 400;
+  font-size: 20px;
+  float: left;
+  clear: both;
+  margin-top: -3%;
+  padding-left: 23%;
+}
+
+.registration input {
+	float: left;
+  font-size: 19px;
+  padding-left: 10px;
+  border: 1px solid #B6C1D3;
+  border-radius: 5px;
+}
+
+.firstname {
+	clear: both;
+	margin-left: 23%;
+}
+
+.name {
+  width: 193px;
+  height: 40px;
+}
+
+.email {
+  width: 399px;
+  height: 40px;
+	clear: both;
+	margin-left: 23%;
+	margin-top: 1%;
+}
+
+.newpassword {
+  width: 399px;
+  height: 40px;
+	clear: both;
+	margin-left: 23%;
+	margin-top: 1%;
+}
+
+select {
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #B6C1D3;
+  float: left;
+  margin-left: 0.4%;
+  margin-top: -2%;
+}
+
+select[aria-label="Month"] {
+	clear: both;
+	margin-left: 23%;
+}
+
+.birthday {
+	float: left;
+  font-size: 22px;
+  clear: both;
+  padding-left: 23%;
+}
+
+.right-side a{
+  color: #365899;
+  font-size: 13px;
+}
+
+.input-left-text {
+  float: left;
+  margin-top: -2%;
+  padding-left: 1%;
+}
+
+label[for="male"] {
+  font-size: 21px;
+  float: left;
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+label[for="female"] {
+  font-size: 21px;
+  float: left;
+  clear: both;
+  padding-left: 23%;
+  padding-top: 2%;
+}
+
+.female {
+	margin-top: 8%;
+}
+
+.male {
+	margin-top: 10%;
+}
+
+.under-text {
+	float: left;
+	clear: both;
+	padding-left: 23%;
+	color: #636363;
+	font-size: 14px;
+}
+
+.under-text a {
+	font-size: 15px;
+}
+
+.signup-submit {
+  width: 195px;
+  height: 40px;
+  background: linear-gradient(#67ee55, #578843);
+  background-color: #69a74e;
+  border: 1px solid;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  text-shadow: 0 1px 2px rgba(0, 0, 0,.5) ;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 19px;
+  cursor: pointer;
+  transition: 0.1s;
+  float: left;
+  clear: both;
+  margin-left: 23%;
+}
+
+.signup-submit:hover {
+	background: linear-gradient(#9EFF8C, #578843);
+}
+
+.signup-submit:active {
+	margin-top: 0.2%;
+}
+
+footer {
+	width: 100%;
+	min-height: 270px;
+}
+
+.languages {
+	width: 51.5%;
+	height: 110px;
+	border-bottom: 1px solid #D9DBDE;
+	margin-left: 24.2%;
+}
+
+.languages-first-ul {
+	max-width: 950px;
+	float: left;
+	padding-left: 0;
+	padding-top: 5.4%;
+}
+
+.languages li {
+	padding-left: 2px;
+}
+
+footer li {
+	display: inline-block;
+	list-style: none;
+	font-size: 14px;
+}
+
+footer a {
+	color: #3276BB;
+}
+
+footer a:hover {
+	color: #0F5398;
+}
+
+.active-language {
+	color: #858585;
+}
+
+.plus-btn {
+	width: 32px;
+	height: 21px;
+	background-color: #F4F5F6;
+	border: 1px solid #C6CBD0;
+	cursor: pointer;
+	transition: 0.15s;
+}
+
+.plus-btn:hover {
+	background-color: #E8E9EA;
+}
+
+.plus-btn:active {
+	background-color: #E2E3E4;
+}
+
+.middle {
+	width: 51.5%;
+}
+
+.middle-content {
+	float: left;
+	clear: both;
+	width: 49.2%;
+	padding-left: 23.8%;
+	margin-top: -7px;
+}
+
+.middle-content li{
+	padding-left: 8px;
+	padding-bottom: 3px;
+}
+
+.copuright {
+	max-width: 51.5%;
+}
+
+.copyright h5 {
+	float: left;
+	clear: both;
+	font-size: 12px;
+	color: #7D7E80;
+	padding-left: 24.2%;
+	margin-top: 1px;
+	font-weight: 400;
 }
